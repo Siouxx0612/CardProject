@@ -5,9 +5,7 @@ import AddUser from './components/Users/AddUser';
 function App() {
   return (
     <div>
-      <AddUser>
-        
-      </AddUser>
+      <AddUser/>
     </div>
   );
 }
