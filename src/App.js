@@ -12,13 +12,13 @@ function App() {
         { name: uName, age: uAge, id: Math.random().toString() },
       ];
     });
-
+  };
     return (
       <div>
         <AddUser onAddUser={addUserHandler} />
         <UsersList users={usersList} />
       </div>
     );
-  }
+  
 };
 export default App;
